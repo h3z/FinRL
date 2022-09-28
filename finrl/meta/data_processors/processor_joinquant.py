@@ -6,9 +6,9 @@ import os
 import jqdatasdk as jq
 import numpy as np
 import pandas as pd
-from func import calc_all_filenames
-from func import date2str
-from func import remove_all_files
+from .func import calc_all_filenames
+from .func import date2str
+from .func import remove_all_files
 
 
 class JoinQuantEngineer:
